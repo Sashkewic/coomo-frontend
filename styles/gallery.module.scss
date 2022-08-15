@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Контентная часть */
+.gallery_title {
+    width: 1267px;
+    display: flex;
+    margin: 30px auto;
+    padding-right: 25px;
+    border-bottom: 1px solid #000000;
+}
+
+.gallery_title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.gallery_desc {
+    width: 1267px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery_desc p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+}
+
+.gallery_desc span {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Фотоальбомы */
+.fotoalbums {
+    max-width: 1267px;
+    margin: 50px auto;
+}
+
+.fotoalbums .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotoalbums .row .album {
+    width: 350px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.fotoalbums .row .album:hover {
+    cursor: pointer;
+}
+
+
+.fotoalbums .row .album .poster {
+    border-radius: 15px;
+    object-fit: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.fotoalbums .row .album:hover > .poster {
+    box-shadow: 0px 0px 10px 5px #3130BD;
+}
+
+.fotoalbums .row .album:hover > p {
+    color: #3130BD;
+    font-weight: 700;
+}
+
+.fotoalbums .row .album p {
+    margin-top: 20px;
+    font-size: 26px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fotoalbums .row #album-7, .fotoalbums .row #album-8, .fotoalbums .row #album-9, .fotoalbums .row #album-10 {
+    display: none;
+}
+
+.load_fotoalbums {
+    width: 315px;
+    height: 50px;
+    background: #ECECF4;
+    border-radius: 15px;
+    border: 1px solid #ECECF4;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+}
+
+.load_fotoalbums i {
+    margin-right: 25px;
+}
+
+.see_more_fotoalbums {
+    display: flex;
+    justify-content: center;
+}
+/**/
+
+/* Секция с фотографиями в альбоме */
+
+.fotoalbum_title {
+    width: 1267px;
+    display: flex;
+    margin: 30px auto;
+    padding-right: 25px;
+    border-bottom: 1px solid #000000;
+}
+
+.fotoalbum_title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fotoalbum_desc {
+    width: 1267px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotoalbum_desc p {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fotoalbum_desc span {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fotos {
+    max-width: 1300px;
+    margin: 50px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fotos .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fotos .row .foto {
+    width: 350px;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.fotos .row .foto .album_foto {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.load_fotos {
+    width: 315px;
+    height: 50px;
+    background: #ECECF4;
+    border-radius: 15px;
+    border: 1px solid #ECECF4;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.row a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1299px) {
+
+    .gallery_title {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .gallery_title h2 {
+        text-align: center;
+    }
+
+    .gallery_desc {
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    
+
+    .fotoalbum_title {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .fotoalbum_title h2 {
+        text-align: center;
+    }
+
+    .fotoalbum_desc {
+        display: block;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .fotoalbums .row .album img {
+        align-items: center;
+    }
+
+    .fotos .row .foto img {
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 1099px){
+    .fotoalbums .row {
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 796px){
+    .gallery_title {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 749px){
+    .fotoalbums .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 729px){
+    .fotos .row {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .fotoalbum_title h2{
+        font-size: 28px;
+    }
+
+    .fotoalbum_desc p {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .fotoalbums .row .album {
+        width: 100%;
+    }
+
+    .fotoalbums .row .album img{
+        width: 90vw !important;
+    }
+}

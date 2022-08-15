@@ -1,0 +1,138 @@
+.main_news {
+    width: 95%;
+}
+
+.news {
+    max-width: 1267px;
+    margin: auto;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+
+    .secondary_news {
+        width: 380px;
+    }
+}
+
+.news_block {
+    display: flex;
+    border-bottom: 1px solid #C4C4C4;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+    .img_block {
+        width: 255px;
+        height: 150px;
+    }
+
+    .img_block img{
+        width: 255px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+.text_block {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    word-break: break-word;
+
+    .public_date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #C4C4C4;
+    }
+
+    a {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        color: #3130BD;
+    }
+
+    .text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;  
+    }
+
+    .news_tags {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .news_tags i {
+        color: #95B7FF;
+    }
+
+    .news_tags a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #95B7FF;
+        pointer-events: none;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+    .main_news {
+        width: 100%;
+    }
+
+    .news {
+        .secondary_news {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .text_block {
+        .text {
+            font-size: 12px;  
+        }
+
+        a {
+            font-size: 14px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .text_block {
+        .news_tags {
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 519px) {
+    .news_block {
+        flex-direction: column;
+        align-items: center;
+
+        .text_block {
+            margin-left: 0;
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,176 @@
+{
+  "home_page": {
+    "home_page_title": "Главная страница",
+    "menu_online_test": "Онлайн тест",
+    "menu_videolessons": "Видеоуроки",
+    "pages_ort": "ОРТ",
+    "pages_school_olympiad": "Школьная олимпиада",
+    "pages_to_teachers": "Учителям",
+    "menu_news": "Новости",
+    "menu_reports": "Отчёты", 
+    "menu_faq": "Вопрос-ответ",
+    "menu_projects": "Проекты",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Контакты",
+    "pages_registration_ort": "Идёт регистрация на ОРТ ",
+    "pages_registration_to_admins_ort": "Идёт набор администраторов ОРТ",
+    "pages_independent_testing": "Независимое тестирование школьников",
+    "pages_videolessons_for_ort": "Видеоуроки по подготовке к ОРТ",
+    "pages_test_preparation_guides": "Пособия для подготовки к тестированию",
+    "news_important": "Важное",
+    "news_advertisement": "Объявления",
+    "pages_contacts_we_in_social_media": "Мы в соцсетях"
+  },
+  "reports_block": {
+    "reports_block_name": "Объявления",
+    "reports_block_text": "В данном разделе отображаются важные объявления и документы"
+  },
+  "statistics_block": {
+    "statistics_block_title": "Количество абитуриентов 2021 год",
+    "statistics_block1": "Количество участников ОРТ",
+    "statistics_block2": "Количество абитуриентов, зачисленных на грантовые места вузов Кыргызстана*",
+    "statistics_block3": "Зачисленные (в %) абитуриенты из сельских школ",
+    "statistics_block4": "Зачисленные абитуриенты. Среднее значение тестовых баллов",
+    "statistics_block5": "Участники ОРТ. Среднее значение тестовых баллов",
+    "statistics_block6": "Данные по зачислению предоставлены вузами Кыргызской Республики",
+    "statistics_block7": "Детализированные данные по зачислению не предоставлялись",
+    "statisctics_location1": "Баткенская",
+    "statisctics_location2": "Г. Бишкек",
+    "statisctics_location3": "Жалал-Абадская ",
+    "statisctics_location4": "Иссык-Кульская",
+    "statisctics_location5": "Нарынская",
+    "statisctics_location6": "Ошская",
+    "statisctics_location7": "Таласская",
+    "statisctics_location8": "Чуйская"
+  }, 
+  "navbar": {
+    "menu_projects": "Проекты",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Контакты",
+    "search_placeholder": "Искать (больше 3 знаков)"
+  },
+
+  "mobileMenu": {
+    "menu_projects": "Проекты",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Контакты",
+    "search_placeholder": "Искать (больше 3 знаков)",
+    "about": "О ЦООМО"
+  },
+  "bottom_menu": {
+    "pages_test_preparation_guides": "Видеоуроки по подготовке к ОРТ"
+  },
+  "footer": {
+    "footer_address_title": "Наш адрес",
+    "footer_address": "720040, Кыргызстан, Бишкек, ул.Тыныстанова 98",
+    "footer_telephone": "Телефон",
+    "footer_email": "Электронная почта",
+    "menu_reports": "Документы",
+    "menu_projects": "Проекты",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Контакты",
+    "footer_company_name": "Официальный сайт Центра оценки в образовании и методов обучения",
+    "footer_rights": "Все права защищены © Официальный сайт Центра оценки в образовании и методов обучения",
+    "footer_schedule": "График работы офиса",
+    "footer_schedule_time": "Понедельник-пятница 9.00-17.00, обед 12.00-13.00",
+    "footer_schedule_time_work": "в рабочее время"
+  },
+
+  "faq": {
+    "faq_title": "Вопрос-ответ"
+  },
+  "videolessons": {
+    "videolessons_one_lesson": "1 видеоурок",
+    "videolessons_youtube_link1": "Смотрите все видеоуроки на нашем",
+    "videolessons_youtube_link2": "Youtube-канале",
+    "videolessons_youtube_link3": "",
+    "videolessons_subjects": "Предметы"
+  },
+
+  "videolesson": {
+    "videolesson_title": "Видеоуроки"
+  },
+  "news_page": {
+    "page_title": "Новости"
+  },
+  "secondary_news": {
+    "news_important": "Важное"
+  },
+  "contacts_page": {
+    "page_title": "Контакты",
+    "address_title": "Наш адрес",
+    "address": "720040, Кыргызстан, Бишкек, ул.Тыныстанова 98",
+    "telephone": "Телефон",
+    "email": "Электронная почта",
+    "schedule": "График работы офиса",
+    "schedule_time": "Понедельник-пятница 9.00-17.00, обед 12.00-13.00",
+    "schedule_time_work": "в рабочее время"
+  },
+  "galleries_page": {
+    "page_title": "Фотоальбомы",
+    "galleries": {
+      "one": "альбом",
+      "few": "альбома",
+      "many": "альбомов"
+    },
+    "more": "ещё"
+  },
+  "projects_page": {
+    "page_title": "Проекты",
+    "more": "ещё"
+  },
+  "online_test": {
+    
+    "online_test_title": "Онлайн Тест",
+    "online_test_title_subjects": "Предметы",
+    "online_test_lang_ru": "Русский",
+    "online_test_lang_kg": "Кыргызский",
+    "online_test_part": "часть",
+    "online_test_version": "вариант",
+    "online_test_quantity_quests": "Количество заданий",
+    "online_test_time_test": "Время: {minutes} минут",
+    "online_test_search": "Поиск по предмету",
+    "online_test_search_all": "Все",
+    "online_test_search_option1": "Все предметы",
+    "online_test_search_option2": "На кыргызском",
+    "online_test_search_option3": "На русском",
+    "extra_note1": "Для более подробных результатов, показывающих уровень подготовленности тестируемого в конкретных разделах теста ОРТ Вам следует пройти Пробное бланочное тестирование ЦООМО.",
+    "extra_note2": "Тесты, используемые в этом случае, отличаются по содержанию от тестов бесплатного онлайн-тестирования.",
+    "start_test_button": "Начать тест"
+  },
+  "online_test_questions": {
+    "page_title": "бланк ответов",
+    "timing": "Оставшееся время",
+    "button_text": "Закончить тест",
+    "quantity_quests": "Количество заданий:",
+    "test_version": "вариант",
+    "test_part": "часть",
+    "test_time_test": "Время: {minutes} минут"
+  },
+  "online_test_results": {
+    "right_answers": "Правильные ответы",
+    "online_test_results_complete_test": "Результат выполнения теста",
+    "online_test_is_right": "Правильно",
+    "online_test_is_wrong": "Неправильно",
+    "online_test_elapsed_time": "Время выполнения теста",
+    "online_test_button_show_is_right_answers": "Для просмотра правильных ответов, решений к заданиям нажмите сюда",
+    "online_test_button_on_home": "На главную",
+    "online_test_button_repeat_test": "Повторить тест",
+    "online_test_button_select_subj": "Выбрать предмет"
+  },
+  "search_results": {
+    "search_results_title": "Результаты поиска",
+    "search_results_found_items_before": "По результатам поиска",
+    "search_results_found_items_after": {
+      "one": "найдено: {count} запись",
+      "few": "найдено: {count} записи",
+      "many": "найдено: {count} записей"
+    },
+    "search_results_sorting": "Сортировать",
+    "search_results_sorting_all": "Все",
+    "search_results_sorting_news": "Новости",
+    "search_results_sorting_pages": "Страницы",
+    "search_results_sorting_tests": "Тесты",
+    "search_results_sorting_courses": "Видеокурсы"
+  }
+}

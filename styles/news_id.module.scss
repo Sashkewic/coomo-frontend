@@ -1,0 +1,146 @@
+.news_section {
+    max-width: 1267px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.news {
+    .news_image {
+        width: 100%;
+        position: relative;
+    }
+
+    .news_image h1{
+        position: absolute;
+        bottom: 4px;
+        color: #FFF;
+        padding: 18px 22px;
+        background: rgba(49, 48, 189, 0.7);
+    }
+
+    .news_image img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .news_tags {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .news_tags a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #95B7FF;
+        pointer-events: none;
+        text-decoration: none;
+    }
+
+    .news_tags i {
+        color: #95B7FF;
+    }
+}
+
+.news_info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .news_public_date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #C4C4C4;
+    }
+}
+
+.news_text {
+    width: 100%;
+    word-wrap: break-word;
+    margin-top: 20px;
+
+    img {
+        float: none !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+.news_block {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+
+    .read_other_news {
+        width: 60%;
+
+        .read_title {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #3130BD;
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 1300px){
+    .news_section {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .news_text {
+        width: 100%;
+    }
+
+    .news_block {
+        flex-direction: column;
+
+        .read_other_news {
+            width: 100%;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 540px){
+    .news {
+        .news_tags {
+            display: none;
+        }
+
+        .news_image {
+            h1 {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 519px){
+    .news_block {
+        .read_other_news {
+            .read_title {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .news_text {
+        img {
+            width: 90vw;
+            object-fit: contain;
+        }
+    }
+}

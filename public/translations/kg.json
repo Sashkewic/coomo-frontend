@@ -1,0 +1,181 @@
+{
+  "home_page": {
+    "home_page_title": "Башкы бет",
+    "menu_online_test": "Онлайн тест",
+    "menu_videolessons": "Видеосабактар",
+    "pages_ort": "ЖРТ",
+    "pages_school_olympiad": "Мектеп олимпиадасы",
+    "pages_to_teachers": "Мугалимдер үчүн",
+    "menu_news": "Жаңылыктар",
+    "menu_reports": "Отчёттор",
+    "menu_faq": "Суроо-жооп",
+    "pages_registration_ort": "ЖРТга каттоо жүрүп жатат",
+    "pages_registration_to_admins_ort": "ЖРТ администраторлорун кабыл алуу жүрүп жатат",
+    "pages_independent_testing": "Мектеп окуучулары үчүн көз карандысыз тест",
+    "pages_videolessons_for_ort": "ЖРТга даярдануу боюнча видеосабактар",
+    "news_advertisement": "Кулактандыруу",
+    "pages_contacts_we_in_social_media": "Биз соцтармактарында"
+  },
+  "reports_block": {
+    "reports_block_name": "Кулактандыруулар",
+    "reports_block_text": "Бул бөлүмдө маанилүү кулактандыруулар жана документтер чагылдырылат"
+  },
+  "statistics_block": {  
+    "statistics_block_title": "2021-жыл. Абитуриенттердин саны",
+    "statistics_block1": "ЖРТнын катышуучуларынын саны",
+    "statistics_block2": "Кыргызстандын ЖОЖдорунун гранттык орундарына кабыл алынган абитуриенттердин саны*",
+    "statistics_block3": "Айылдык мектептерден кабыл алынган абитуриенттер (% түрүндө)",
+    "statistics_block4": "Кабыл алынган абитуриенттер. Тесттик упайлардын орточо саны. ",
+    "statistics_block5": "ЖРТнын катышуучулары. Тесттик упайлардын орточо саны.",
+    "statistics_block6": "Кабыл алуу боюнча маалыматтарды Кыргыз Республикасынын ЖОЖдору берген",
+    "statistics_block7": "Кабыл алуу боюнча деталдаштырылган маалыматтар берилген эмес",
+    "statisctics_location1": "Баткен облусу",
+    "statisctics_location2": "Бишкек шаары",
+    "statisctics_location3": "Жалал-Абад облусу ",
+    "statisctics_location4": "Ысык-Көл облусу",
+    "statisctics_location5": "Нарын облусу",
+    "statisctics_location6": "Ош облусу",
+    "statisctics_location7": "Талас облусу",
+    "statisctics_location8": "Чүй облусу"
+  },
+  "navbar": {
+    "menu_projects": "Долбоорлор",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Байланыш үчүн",
+    "search_placeholder": "Издөө (3 белгиден көп)"
+  },
+  
+  "mobileMenu": {
+    "menu_projects": "Долбоорлор",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Байланыш үчүн",
+    "search_placeholder": "Издөө (3 белгиден көп)",
+    "about": "ББОУБ"
+  },
+
+  "bottom_menu": {
+    "pages_test_preparation_guides": "ЖРТга даярдануу боюнча видеосабактар"
+  },
+  "home_news_block": {
+    "menu_news": "Жаңылыктар",
+    "news_important": "Маанилүү маалымат"
+  },
+  "footer": {
+    "footer_address_title": "Биздин дарек",
+    "footer_address": "720040, Кыргызстан, Бишкек, Тыныстанов көчөсү 98",
+    "footer_telephone": "Телефон номери",
+    "footer_email": "Электрондук дарек",
+    "menu_reports": "Отчёттор",
+    "menu_projects": "Долбоорлор",
+    "menu_gallery": "Галерея",
+    "pages_contacts": "Байланыш үчүн",
+    "footer_company_name": "Билимди баалоо жана окутуу усулдары борборунун расмий сайты",
+    "footer_rights": "Бардык укуктар сакталган © Билимди баалоо жана окутуу усулдары борборунун расмий сайты",
+    "footer_schedule": "Кеңсенин иштөө тартиби",
+    "footer_schedule_time": "дүйшөмбү — жума күндөрү 09:00дөн 17:00гө чейин; 12:00—13:00 — түшкү тыныгуу",
+    "footer_schedule_time_work": "иш убагында гана жооп берет"
+
+  },
+  "news_page": {
+    "page_title": "Жаңылыктар"
+  },
+  "secondary_news": {
+    "news_important": "Маанилүү маалымат"
+  },
+  "faq": {
+    "faq_title": "Суроо-жооп"
+  },
+  "videolessons": {
+    "videolessons_title": "Видеосабактар",
+    "videolessons_youtube_link1": "Бардык видео сабактарды биздин",
+    "videolessons_youtube_link2": "Youtube каналдан",
+    "videolessons_youtube_link3": " көрсөңүздөр болот",
+    "videolessons_subjects": "Предметтер",
+
+    "courses": {
+      "one": "курс",
+      "few": "курс",
+      "many": "курс"
+    }
+  },
+  "videolesson": {
+    "videolesson_title": "Видеосабактар"
+  },
+
+  "contacts_page": {
+    "page_title": "Биз менен кантип байланышсаңар болот",
+    "address_title": "Биздин дарек",
+    "address": "720040, Кыргызстан, Бишкек, Тыныстанов көчөсү 98",
+    "telephone": "Телефон номери",
+    "email": "Электрондук дарек",
+    "schedule": "Кеңсенин иштөө тартиби",
+    "schedule_time": "дүйшөмбү — жума күндөрү 09:00дөн 17:00гө чейин; 12:00—13:00 — түшкү тыныгуу",
+    "schedule_time_work": "иш убагында гана жооп берет"
+  },
+  "galleries_page": {
+    "page_title": "Фотоальбомдор",
+    "galleries": {
+      "one": "{count} альбом",
+      "few": "{count} альбом",
+      "many": "{count} альбом"
+    },
+    "more": "дагы"
+  },
+  "projects_page": {
+    "page_title": "Долбоорлор",
+    "more": "дагы"
+  },
+  "online_test": {
+    "online_test_title": "Онлайн Тест",
+    "online_test_title_subjects": "Предметтер",
+    "online_test_lang_ru": "Орусча",
+    "online_test_lang_kg": "Кыргызча",
+    "online_test_part": "бөлүк",
+    "online_test_version": "вариант",
+    "online_test_quantity_quests": "Суроолордун саны",
+    "online_test_time_test": "Убакыт: {minutes} мүнөт",
+    "online_test_search": "Предмет боюнча издөө",
+    "online_test_search_all": "Бардыгы",
+    "online_test_search_option1": "Бардык предметтер",
+    "online_test_search_option2": "Кыргызча",
+    "online_test_search_option3": "Орусча",
+    "extra_note1": "Тест тапшырган адамдын ЖРТнын конкреттүү бөлүмдөрү боюнча даярдыгынын деңгээлин көрсөткөн кененирээк жыйынтыктарды алуу үчүн ББОУБнын бланк аркылуу тестин тапшыруу керек.",
+    "extra_note2": "Бул тесттердин мазмуну  акысыз онлайн тесттин мазмунунан айырмаланып турат.",
+    "start_test_button": "Тестти баштоо"
+  },
+  "online_test_questions": {
+    "page_title": "жооптордун бланкы",
+    "timing": "Артып калган убакыт",
+    "button_text": "Тестти аяктоо",
+    "test_part": "бөлүк",
+    "test_version": "вариант",
+    "test_quantity_quests": "Суроолордун саны",
+    "test_time_test": "Убакыт: {minutes} мүнөт"
+  },
+  "online_test_results": {
+    "right_answers": "Туура жооптор",
+    "online_test_results_complete_test": "Тестти аткаруунун жыйынтыгы",
+    "online_test_is_right": "Туура",
+    "online_test_is_wrong": "Туура эмес",
+    "online_test_elapsed_time": "Тест тапшырмаларын аткаруу убактысы",
+    "online_test_button_show_is_right_answers": "Туура жоопторду, тапшырмалардын чыгарылыштарын көрүү үчүн бул жакты басыңыз",
+    "online_test_button_on_home": "Башкы бетке",
+    "online_test_button_repeat_test": "Тестти кайра тапшыруу",
+    "online_test_button_select_subj": "Предметти тандоо"
+  },
+  "search_results": {
+    "search_results_title": "Издөөнүн жыйынтыгы",
+    "search_results_found_items_before": "Издөөнүн жыйынтыгы боюнча",
+    "search_results_found_items_after": {
+      "one": "табылды: {count} жазуу",
+      "few": "табылды: {count} жазуу",
+      "many": "табылды: {count} жазуу"
+    },
+    "search_results_sorting": "Сорттоо",
+    "search_results_sorting_all": "Бардык",
+    "search_results_sorting_news": "Жаңылыктар",
+    "search_results_sorting_pages": "Страницы",
+    "search_results_sorting_tests": "Тесттер",
+    "search_results_sorting_courses": "Видеосабактар"
+  }
+}

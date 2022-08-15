@@ -1,0 +1,213 @@
+/* Блок с заголовком */
+.title {
+  max-width: 100%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
+
+.title h1 {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 700;
+}
+
+/* Секция с контактами и картой */
+.location_block {
+  max-width: 1237px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 1em;
+  // margin: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  // justify-content: space-around;
+}
+
+.location_block .text_location .icon {
+  width: 100px;
+  height: 100px;
+}
+
+.location_block .text_location .icon img {
+  min-width: 100%;
+  height: 100%;
+}
+
+.location_block > .text_location > .address,
+.location_block > .text_location > .phone,
+.location_block > .text_location > .email,
+.location_block > .text_location > .time_work {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.location_block .text_location .address .text,
+.phone .text,
+.email .text,
+.time_work .text {
+  padding-left: 25px;
+}
+
+.location_block .text_location .address .text p,
+.location_block .text_location .phone p,
+.location_block .text_location .email p,
+.location_block .text_location .time_work p {
+  font-size: 26px;
+  line-height: 30px;
+}
+
+.location_block .text_location .address .text span,
+.location_block .text_location .phone span,
+.location_block .text_location .email span,
+.location_block .text_location .time_work span {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #3130bd;
+}
+
+.map_location {
+  position: relative;
+}
+
+.map_location .icon_img {
+  position: absolute;
+  top: 142px;
+  left: 190px;
+}
+
+/* Секция соцсетей */
+.social_sites {
+  width: 1237px;
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social_sites .social_sites_icons a img {
+  margin-right: 40px;
+}
+
+.social_sites img:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+/* Адаптив для мобильных устройств */
+
+@media screen and (max-width: 1229px) {
+  .location_block {
+    grid-template-columns: 1fr 1fr;
+  }
+  .social_sites {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 949px) {
+  .location_block {
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr;
+  }
+  .location_block {
+    flex-direction: column;
+  }
+
+  .address,
+  .phone,
+  .email {
+    justify-content: center;
+  }
+
+  .map_location {
+    width: 95vw;
+    text-align: center;
+  }
+
+  .location_block > .text_location > .address,
+  .location_block > .text_location > .phone,
+  .location_block > .text_location > .email,
+  .location_block > .text_location > .time_work {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .location_block .text_location .icon {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 723px) {
+  .social_sites {
+    flex-direction: column;
+
+    .social_sites_icons {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social_sites_icons a img {
+      margin: 0 5px;
+    }
+  }
+
+  .social_sites .social_sites_text {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .location_block,
+  .map_location,
+  .social_sites {
+    width: 90vw;
+  }
+
+  .map_location img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .map_location .map_img {
+    width: 100vw;
+  }
+
+  .location_block .text_location .address .text p,
+  .location_block .text_location .phone p,
+  .location_block .text_location .email p,
+  .location_block .text_location .time_work p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .location_block .text_location .address .text span,
+  .location_block .text_location .phone span,
+  .location_block .text_location .email span {
+    font-size: 22px;
+  }
+
+  .email {
+    margin-left: 0;
+  }
+
+  .title h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title {
+    h1 {
+      font-size: 36px;
+    }
+  }
+}

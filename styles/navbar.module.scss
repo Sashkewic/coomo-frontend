@@ -1,0 +1,216 @@
+.nav_block {
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+}
+
+.nav_block .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nav-block .row .col_2 {
+    flex-basis: 50%;
+    min-width: 620px;
+}
+
+.nav_block .col_2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav_block .col_2 ul li a {
+    padding: 45px 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav_block .col_2 ul li i {
+    padding-left: 25px;
+    font-size: 15px;
+    color: #3130BD;
+    border-top: 8px solid #fff;
+}
+
+.nav_block .col_2 ul li a:hover {
+    border-top: 8px solid #1615A4;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav_block .col_2.nav .projects {
+    position: relative;
+    display: block;
+}
+
+.nav_block .col_2.nav .projects .projects_submenu {
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 60px;
+    min-width: 205px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10000;
+    display: none;
+}
+
+.nav_block .col_2.nav .projects .projects_submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav_block .col_2.nav .projects .projects_submenu li a {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.nav_block .col_2.nav .projects .projects_submenu li a:hover {
+    border: none;
+}
+
+.nav_block .col_2 .nav .projects:hover .projects_submenu {
+    display: block;
+}
+
+.nav_block .col_2.nav .search {
+    margin-left: 10px;
+}
+
+.nav_block .col_2.nav .nav_search {
+    width: 235px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #3130BD;
+    outline: none;
+    padding-left: 30px;
+}
+
+.nav_block .col_2.nav .nav_search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #B1B0EA;
+    opacity: 1; /* Firefox */
+}
+
+.nav_block .col_2.nav .nav_search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #B1B0EA;
+}
+
+.nav_block .col_2.nav .nav_search::-ms-input-placeholder { /* Microsoft Edge */
+    color: #B1B0EA;
+}
+
+.nav_block .col_2 ul li i {
+    margin-right: -26px;
+    font-size: 15px;
+    color: #3130BD;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    border: 0;
+}
+
+@media screen and (max-width: 1289px) {
+
+    .nav_block .row {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row .col_2.logo {
+        text-align: center;
+    }
+
+    .nav_block .col_2 ul {
+        justify-content: center;
+        padding: 35px 0;
+    }
+}
+
+@media screen and (max-width: 796px) {
+
+    .nav_block .col_2 ul li {
+        padding: 35px 20px;
+    }
+
+    .content .row .col-2 {
+        width: 100%;
+    }
+
+    .nav_block {
+        display: none;
+    }
+}
+
+// @media screen and (max-width: 779px) {
+//     .nav_block {
+//         display: none;
+//     }
+// }
+
+@media screen and (max-width: 644px) {
+
+    .nav_block .row .col_2.logo {
+        min-width: 100%;
+    }
+
+    .nav_block .row .col_2.logo a img {
+        width: 100%;
+    }
+
+    .nav_block .col_2 ul li {
+        padding: 45px 20px;
+    }
+
+    .nav_block {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .nav_block .col_2 ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav_block .col_2 ul li i {
+        padding-left: 0;
+    }
+
+    .nav_block .row .col_2.nav ul .projects .projects_submenu,
+    .nav_block .row .col_2.nav ul .gallery .gallery_submenu {
+        display: none;
+    }
+
+    .nav_block .row .col_2.nav ul li a:hover {
+        border: none;
+        box-shadow: none;
+    }
+
+    .nav_block .col_2 ul li {
+        padding: 20px 20px;
+    }
+}
+
+
+@media screen and (max-width: 471px) {
+
+    .navigation li a {
+        font-size: 11px;
+    }
+
+    .projects .projects_submenu, .gallery .gallery_submenu {
+        display: none;
+    }
+}

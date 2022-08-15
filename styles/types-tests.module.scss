@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Блок с заголовком */
+
+.title {
+  // width: 1267px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 700;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+  }
+
+  strong {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+/* Общая контентная часть (фильтр + блок с тестами)*/
+
+
+.choose_test {
+  display: grid;
+  grid-template-columns: 0.42fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin-top: 50px;
+
+  .filter_tests {
+    grid-area: 1 / 1 / 2 / 2;
+    margin-top: 20px;
+    margin-right: 50px;
+
+    .choose_lang{
+      margin-bottom: 20px;
+      border-bottom: 1px solid #5D5D5D;
+      height: 150px;
+      display: flex;
+      align-items: center;
+
+      ul {
+        list-style-type: none;
+      }
+    }
+
+    .subject_filter {
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid #5D5D5D;
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+    }
+
+    .subject_filter_select {
+      margin-top: 20px;
+      width: 200px;
+      height: 30px;
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border: 1px solid #C4C4C4;
+      cursor: pointer;
+      color: #4845C9;
+    }
+  }
+
+  //   .choose_variant {
+  //     border-bottom: 1px solid #5D5D5D;
+  //     height: 150px;
+  //     display: flex;
+  //     align-items: flex-start;
+  //     flex-direction: column;
+  //     justify-content: center;
+
+  //     ul {
+  //       list-style-type: none;
+  //     }
+
+  //     p {
+  //       font-weight: 500;
+  //       font-size: 16px;
+  //       line-height: 19px;
+  //       margin-bottom: 15px;
+  //     }
+  //   }
+
+  //   .number_of_tasks {
+  //     border-bottom: 1px solid #5D5D5D;
+  //     height: 150px;
+  //     display: flex;
+  //     align-items: flex-start;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //   }
+
+  //   p {
+  //     font-weight: 500;
+  //     font-size: 16px;
+  //     line-height: 19px;
+  //     margin-bottom: 15px;
+  //   }
+
+  //   .time_on_tasks {
+  //     height: 150px;
+  //     display: flex;
+  //     align-items: flex-start;
+  //     flex-direction: column;
+  //     justify-content: center;
+  //   }
+  // }
+
+  .tests_card {
+    grid-area: 1 / 2 / 2 / 3;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    /* Размер карточки */
+    .object {
+      width: 400px;
+      height: 210px;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 10px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  
+      /* Наведение на карточку */
+      &:hover {
+        box-shadow: 0px 0px 25px #3130BD;
+        transition: 0.3s;
+      }
+  
+      h6 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+        word-wrap: break-word;
+      }
+  
+      p {
+        font-size: 16px;
+        line-height: 19px;
+        margin-top: 40px;
+      }
+  
+      .object_lang {
+        margin-top: 0;
+      }
+  
+      span {
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+}
+
+/* Цвета карточек */
+.object:nth-child(1) {
+  background: #ABE6FB;
+}
+
+.object:nth-child(2) {
+  background: #E1E7FE;
+}
+
+.object:nth-child(3) {
+  background: #FDC127;
+}
+
+.object:nth-child(4) {
+  background: #95B7FF;
+}
+
+.object:nth-child(5) {
+  background: #3130BD;
+  color: #FFF;
+
+  h6 {
+    color: #FFF !important;
+  }
+}
+
+.object:nth-child(6) {
+  background: #45F1C6;
+}
+
+.object:nth-child(7) {
+  background: #FDA97A;
+}
+
+.object:nth-child(8) {
+  background: #B2FCE6;
+}
+
+.object:nth-child(9) {
+  background: #F6D7CC;
+}
+
+.object:nth-child(10) {
+  background: #ff9933;
+}
+
+.object:nth-child(11) {
+  background: #3399ff;
+}
+
+.object:nth-child(12) {
+  background: #33cccc;
+}
+
+.object:nth-child(13) {
+  background: #b3e6ff;
+}
+
+.object:nth-child(14) {
+  background: #c299ff;
+}
+
+.object:nth-child(15) {
+  background: #ecc6c6;
+}
+
+.object:nth-child(16) {
+  background: #ffc34d;
+}
+
+.object:nth-child(17) {
+  background: #c2c2d6;
+}
+
+.object:nth-child(18) {
+  background: #B2FCE6;
+}
+
+.object:nth-child(19) {
+  background: #F6D7CC;
+}
+
+.object:nth-child(20) {
+  background: #96EFD6;
+}
+
+.object:nth-child(21) {
+  background: #45F1C6;
+}
+
+.object:nth-child(22) {
+  background: #FDA97A;
+}
+
+.object:nth-child(23) {
+  background: #B2FCE6;
+}
+
+.object:nth-child(24) {
+  background: #F6D7CC;
+}
+
+.object:nth-child(25) {
+  background: #ff9933;
+}
+
+.time_and_tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* Стилизация радиокнопок */
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+}
+
+/* Hide the browser's default radio button */
+
+/* Create a custom radio button */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+
+.container {
+  &:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  input:checked ~ .checkmark {
+    background-color: #3130BD;
+  }
+}
+
+/* When the radio button is checked, add a blue background */
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+
+.container {
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+}
+
+.tasks_range, .time_range {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  width: 80%;
+  margin-top: 10px;
+}
+
+#tasks-range::-webkit-slider-thumb, #time-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #3130BD;
+  cursor: pointer;
+}
+
+#tasks-range, #time-range {
+  background: #3130BD;
+  outline: none;
+}
+
+#tasks-range::-moz-range-thumb, #time-range::-moz-range-thumb {
+  background: #3130BD;
+  cursor: pointer;
+}
+
+/**/
+
+/* Основная контентная часть (блок с тестами) */
+
+/* Адаптивность для мобильных устройств */
+
+@media screen and (max-width: 1289px) {
+
+  .title {
+    width: 90%;
+  }
+
+  .choose_lang, .choose_part, .choose_variant {
+    margin-left: 25px;
+  }
+
+  .choose_lang ul, .choose_part ul, .choose_variant ul {
+    margin-left: 25px;
+  }
+
+  .choose_part p, .choose_variant p {
+    margin-left: 25px;
+  }
+
+  .tasks_range, .time_range {
+    margin-left: 25px;
+  }
+
+  .filter_tests .number_of_tasks, .filter_tests .time_on_tasks {
+    margin-left: 25px;
+  }
+
+  .number_of_tasks p, .time_on_tasks p {
+    margin-left: 25px;
+  }
+
+  .time_and_tasks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter_tests {
+    .subject_filter {
+      margin-left: 25px;
+
+      span {
+        margin-left: 25px;
+      }
+
+      .subject_filter_select {
+        margin-left: 25px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1276px){
+  .object {
+    width: 40% !important;
+    height: 250px !important;
+  }
+}
+
+@media screen and (max-width: 913px){
+  .choose_test {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tests_card {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .object {
+    h6 {
+      font-size: 22px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .object {
+    min-width: 90%;
+    height: 190px !important;
+  }
+
+  .filter_tests {
+    margin-right: 25px !important;
+  }
+
+  .tests_card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .time_and_tasks {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .title {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .time_and_tasks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .title h1 {
+    font-size: 44px;
+  }
+}

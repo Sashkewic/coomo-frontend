@@ -1,0 +1,297 @@
+@media screen and (max-width: 1461px){
+  .news {
+    width: 65vw;
+  }
+
+  .news .row .news-block {
+    width: 65vw;
+  }
+
+  .titles .important {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1289px) {
+
+  .row .col-2.logo {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .header-content .nav-block .col-2 ul {
+    justify-content: center;
+  }
+
+  .header-content .content {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 1235px) {
+
+  .content .swiper {
+    width: 65vw;
+    height: 594px;
+  }
+
+  .docs .row .col-2 {
+    display: none;
+  }
+
+  .titles {
+    display: block;
+    width: 100%;
+  }
+
+  .titles .newstitle {
+    text-align: center;
+  }
+
+
+
+  /* .statistics .row {
+      flex-direction: column;
+  } */
+
+}
+
+@media screen and (max-width: 1229px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1099px) {
+  .news {
+    width: 75vw;
+  }
+
+  .news .row .news-block {
+    width: 75vw;
+  }
+}
+
+
+@media screen and (max-width: 940px) {
+  .news {
+    width: 80vw;
+  }
+
+  .news .row .news-block {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 885px){
+  .news {
+    width: 60vw;
+  }
+
+  .news .row {
+    justify-content: center;
+  }
+
+  .news .row .news-block {
+    width: 60vw;
+    justify-content: center;
+  }
+
+}
+
+
+
+@media screen and (max-width: 723px) {
+
+  .header {
+    flex-direction: column;
+  }
+
+  .header .navigation li {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 796px) {
+
+  .content .row .col-2 {
+    width: 100%;
+  }
+
+  .content .swiper {
+    width: 100vw;
+  }
+
+  .category .row {
+    flex-direction: column;
+  }
+
+  .category .row .col-3 {
+    width: 100%;
+  }
+
+  .category .row .col-3:nth-child(1), .category .row .col-3:nth-child(2), .category .row .col-3:nth-child(3) {
+    background-position: 50% 100%;
+  }
+
+  .statistics .row .col-3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* .statistics .row .col-3 p span {
+      float: none;
+  } */
+
+  .statistics .row .col-3:nth-child(6) {
+    width: 70%;
+    text-align: start;
+  }
+
+}
+
+
+@media screen and (max-width: 644px) {
+
+  .nav-block .row .col-2 {
+    min-width: 100%;
+  }
+
+  .nav-block .row .col-2.logo a img {
+    width: 75%;
+  }
+
+  .header-content .nav-block {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .news {
+    width: 100%;
+  }
+
+  .news .row .news-block{
+    width: 100%;
+  }
+
+  .titles {
+    width: 100%;
+  }
+
+  .news .row .important-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .news .row .col-3.covid .circle-1, .news .row .col-3.covid .circle-2, .news .row .col-3.covid .circle-3, .news .row .col-3.telegram .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .footer {
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .nav-block .col-2 ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-block .col-2 ul li i {
+    padding-left: 0;
+  }
+
+  .header-content .nav-block .row .col-2.nav ul .projects .projects-submenu,  .header-content .nav-block .row .col-2.nav ul .gallery .gallery-submenu{
+    display: none;
+  }
+
+  .header-content .nav-block .row .col-2.nav ul li a:hover {
+    border: none;
+    box-shadow: none;
+  }
+
+  .header-content .nav-block .row .col-2.nav ul li {
+    padding: 25px 25px;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .statistics .row p {
+    text-align: center;
+  }
+}
+
+
+
+@media screen and (max-width: 471px) {
+
+  .header .navigation li a {
+    font-size: 11px;
+  }
+}
+
+
+@media screen and (max-width: 359px){
+  .news .row .col-3 img {
+    width: 100%;
+  }
+
+  .news .row .col-3 {
+    width: 100%;
+  }
+
+  .news .row .news-block .col-3 h6, .news .row .news-block .col-3 .date, .news .row .news-block .col-3 p {
+    text-align: center;
+  }
+
+  .news .row .col-3.covid .health-logo {
+    left: 210px;
+  }
+}
+
+
+@media screen and (max-width: 1237px){
+  .docs .col-2 {
+    display: none;
+  }
+
+  .docs {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 920px){
+  .docs .row .slider .swiper {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 710px){
+  .docs .row .slider .swiper {
+    width: 490px;
+  }
+
+  .docs .row .slider .swiper .swiper-slide p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 505px){
+  .docs .row .slider .swiper {
+    display: none;
+  }
+}
+

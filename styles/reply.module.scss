@@ -1,0 +1,47 @@
+.replyTitle{
+  padding: 25px 0;
+  border-bottom: 1px solid #5D5D5D;
+}
+.replyContent{
+  width: 100%;
+  margin: 15px auto;
+}
+.replyContent ol li{
+  margin: 15px 20px;
+  // cursor: default;
+}
+.replyContent ol li span{
+  margin-left: 5px;
+  cursor: pointer;
+  color: #95B7FF;
+}
+.replyContent ol li span svg{
+  margin-left: 5px;
+  margin-bottom: -6px;
+}
+
+.replyContent a {
+  text-decoration: none;
+}
+
+.replyContent a:hover {
+  color: #31308D;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+// .replyContent li > span:hover {
+//   color: #31308D;
+// }
+
+
+@media screen and (max-width: 1289px){
+  .replyContent {
+    width: 90vw;
+  }
+
+  .replyTitle {
+    text-align: center;
+  }
+}

@@ -1,0 +1,242 @@
+.test_content{
+  width: 90vw;
+  // max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 100px minmax(50%, 1300px) 100px;
+  grid-template-rows: 100px auto 300px 120px 75px;
+  grid-template-areas: ". title ."
+                        "prev slider next"
+                        ". answers ."
+                        ". timer ."
+                        ". btn .";
+  grid-column-gap: 10px;
+  grid-row-gap: 0px;
+  justify-content: center;
+}
+
+
+.test_content h1{
+  font-size: 16px;
+  color: #3130BD;
+}
+
+.test_descrip {
+  grid-area: title;
+  text-align: center;
+  color: #3130bd;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.buttonEndTest button {
+  padding: 15px 50px;
+  color: #3130BD;
+  background: #FFFFFF;
+  border: 1px solid #3130BD;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.buttonEndTest button:hover {
+  color: #FFFFFF;
+  background: #3130BD;
+}
+
+.next_btn{
+  grid-area: next;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  text-align: right;
+
+  span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-evenly;
+
+
+    i {
+      font-size: 25px;
+    }
+  }
+}
+.prev_btn{
+  grid-area: prev;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  color: #5D5D5D;
+
+  span {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    justify-content: space-evenly;
+
+    i {
+      font-size: 25px;
+    }
+  }
+}
+
+
+.test_slides{
+  // max-width: 1300px;
+  grid-area: slider;
+}
+
+.test_slide{
+  width: 100%;
+  margin: 20px auto 60px auto;
+  box-shadow: 0px 0px 5px #C4C4C4;
+}
+.test_task{
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+.test_task img {
+  object-fit: contain;
+  pointer-events: none;
+  width: 100%;
+}
+
+
+.test_answer{
+  grid-area: answers;
+  // padding-bottom: 30px;
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  text-align: center;
+}
+.test_answer h1{
+  margin: 20px 0;
+}
+.show_time{
+  grid-area: timer;
+  margin: 30px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.show_time i{
+  font-size: 25px;
+  color: #3130BD;
+
+  -webkit-animation: spin 4s infinite linear;
+}
+
+.buttonEndTest {
+  margin-top: 10px;
+  grid-area: btn;
+  text-align: center;
+}
+
+.buttonEndTest button {
+  padding: 15px 50px;
+  color: #3130BD;
+  background: #FFFFFF;
+  border: 1px solid #3130BD;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.buttonEndTest button:hover {
+  color: #FFFFFF;
+  background: #3130BD;
+}
+
+@-webkit-keyframes spin {
+  0%  {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg);}
+}
+.show_time h1{
+  margin-top: 10px;
+}
+.show_time span{
+
+  color: #3130BD;
+  font-size: 24px;
+  margin: 10px 0px;
+}
+
+@media screen and (max-width: 900px){
+  .test_content {
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 65px 550px 40px 100px;
+    grid-template-areas: "title title"
+                        "timer btn"
+                        "slider slider"
+                        "prev next"
+                        "answers answers";
+
+    .show_time {
+      margin: 0;
+
+      i {
+        display: none;
+      }
+    }
+
+    .test_slides {
+      width: 100%;
+      max-height: 550px;
+
+      .test_task {
+        max-height: 550px;
+      }
+      
+      .swiper-slide, .swiper-slide img {
+        height: 100%;
+      }
+    }
+
+    .test_answer {
+      width: 100%;
+      border-bottom: 0;
+      .answers-parent {
+          overflow-x: scroll;
+          // display: flex;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 445px) {
+  .test_content {
+    .buttonEndTest button {
+      padding: 10px 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .test_content {
+    h1 {
+      font-size: 12px;
+    }
+  }
+}

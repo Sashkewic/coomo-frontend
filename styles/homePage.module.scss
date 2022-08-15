@@ -1,0 +1,266 @@
+.content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+// .content .row {
+//   display: flex;
+//   align-items: center;
+//   // flex-wrap: wrap;
+//   justify-content: space-around;
+//   margin-top: 10px;
+// }
+
+.content .col_2.sidebar_menu {
+  // height: 594px;
+  width: 25%;
+  background: #F8F8F8;
+}
+
+.content .col_2 .sidebar {
+  list-style: none;
+  // height: 594px;
+}
+
+.content .col_2 .sidebar a{
+  text-decoration: none;
+}
+
+.content .col_2 .sidebar .sideBarItem {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  // margin: 10px 0;
+}
+
+.content .col_2 .sidebar .sideBarItem:hover {
+  background: #FFFFFF;
+}
+
+.content .col_2 .sidebar .sideBarItem:hover > .sideBarIcon {
+  background: #3130BD;
+}
+
+.content .col_2 .sidebar .sideBarItem:hover > .sideBarIcon > i {
+  color: #FFFFFF;
+}
+
+.content .col_2 .sidebar .sideBarItem:hover > .sideBarTitle > p {
+  color: #3130BD;
+}
+
+
+.content .col_2 .sidebar .sideBarItem .sideBarIcon {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  // border-right: 1px solid rgba(0, 0, 0, .15);
+  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.content .col_2 .sidebar .sideBarItem .sideBarTitle {
+  width: 100%;
+}
+
+.content .col_2 .sidebar .sideBarItem .sideBarTitle p{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 15px;
+  color: #000000;
+}
+
+.content .col_2 .sidebar .sideBarItem i {
+  font-size: 30px;
+  color: #3130BD;
+  padding: 15px 0;
+}
+
+.content .col_2 .sidebar .sideBarItem a:hover {
+  font-weight: bold;
+  color: #3130BD;
+}
+
+.content .col_2 .sidebar .sideBarItem .sideBarIcon img {
+  margin-top: 5px;
+}
+
+.content .col_2.slider_block {
+  object-fit: cover;
+  width: 75%;
+}
+
+.content .swiper {
+  max-width: 1000px;
+  height: auto;
+  position: relative;
+}
+.swiper a{
+  margin: 0;
+  padding: 20px 50px;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  right: 0;
+  color: #FFF;
+  background: rgba(236, 0, 7, 0.7);
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.slider{
+  position: relative;
+  width: 80%;
+}
+
+.swiper_button_prev, .swiper_button_next {
+  display: block;
+  background: #000;
+  width: 30px;
+  height: 30px;
+  color: #FFF;
+  margin: -10px -10px 0 0;
+  padding: 5px;
+  position: absolute;
+  cursor: pointer;  
+}
+
+.swiper_button_next {
+  top: 10px;
+  right: 10px;
+
+}
+
+.swiper_button_prev {
+  top: 10px;
+  left: 0;
+}
+
+.qwerty {
+  display: block;
+  height: 50px;
+  color: red !important;
+}
+
+.slider p{
+  position: absolute;
+  top: 475px;
+  right: 0;
+  width: 50%;
+  color: #FFF;
+  font-size: 24px;
+  z-index: 1;
+}
+
+// .slider .swiper img {
+//   width: 100%;
+//   object-fit: cover;
+// }
+
+.infoSlider{
+  width: 60%;
+  height: 140px;
+  padding: 10px;
+  position: absolute;
+  top: 450px;
+  right: 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textSlider{
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 4px;
+  padding: 35px 55px;
+  width: 60%;
+  height: 140px;
+  font-size: 20px;
+  right: 0;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+@media screen and (max-width: 1300px) {
+  .content .col_2 .sidebar .sideBarItem .sideBarIcon {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1020px){
+  .content .swiper {
+    max-width: 100%;
+  }
+  .slider1 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 964px){
+  .textSlider {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .content .col_2 .slider {
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 880px){
+  .textSlider{
+    font-size: 16px !important;
+  }
+  .content {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 879px) {
+
+  .content .col_2.sidebar_menu, .content .col_2.slider_block {
+    width: 100%;
+    height: auto;
+  }
+
+  .content .col_2 .sidebar {
+    height: auto;
+  }
+
+  .content .col_2 .sidebar .sideBarItem .sideBarIcon {
+    width: 60px;
+  }
+
+  // .content .swiper {
+  //   width: 95vw;
+  // }
+}
+
+@media screen and (max-width: 670px){
+  .swiper .slider1 .infoSlider{
+    width: 100% !important;
+  }
+
+  .textSlider{
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 640px){
+  .swiper a{
+    padding: 1rem 2rem;
+    font-size: 1.3em;
+    top: 0;
+  }
+}
+@media screen and (max-width: 460px){
+  .swiper a{
+    font-size: 1em;
+  }
+}

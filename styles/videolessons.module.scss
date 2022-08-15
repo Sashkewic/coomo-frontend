@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Секция с заголовком */
+.videolessons_title {
+    width: 1237px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #534747;
+    padding-bottom: 25px;
+
+    p > a {
+        text-decoration: none;
+        color: #3130BD;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+    }
+}
+
+.videolessons_desc {
+    width: 1237px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    strong {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    span {
+        font-size: 18px;
+        line-height: 21px;
+    }
+}
+
+/* Секция с блоками видеопредметов */
+.videolessons_section {
+    display: flex;
+    width: 1000px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .videolesson {
+        width: 400px;
+        height: 200px;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            color: #000;
+        }
+
+        p {
+            text-align: center;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 30px;
+            padding-left: 5px;
+            padding-top: 10px;
+        }
+
+        .choose_lang {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 5px;
+
+            a {
+                font-size: 16px;
+                color: #000;
+            }
+
+            a:hover {
+                color: #3130BD;
+            }
+
+            .icon_block {
+                width: 80px;
+                height: 80px;
+                position: relative;
+                border-radius: 50%;
+                margin-bottom: 20px;
+
+                .play_icon {
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    top: 20%;
+                    left: 25%;
+                }
+            }
+        }
+    }
+
+    .videolesson:hover {
+        box-shadow: 0px 0px 25px #3130BD;
+        transition: .2s;
+    }
+
+    
+}
+
+
+/* Отдельный блок с предметом */
+.videolessons_section {
+    .videolesson:nth-child(1) {
+        background: #ABE6FB;
+
+        .choose_lang {
+            .icon_block {
+                background: rgba(49, 48, 189, 0.3);
+            }
+        }
+    }
+
+    .videolesson {
+        .choose_lang {
+            .icon_block {
+                background: rgba(255, 255, 255, 0.3);
+            }
+
+            .link_disabled {
+                cursor: pointer;
+                pointer-events: none;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .videolesson:nth-child(2) {
+        background: #C9ED8D;
+    }
+
+    .videolesson:nth-child(3) {
+        background: #FDC127;
+    }
+
+    .videolesson:nth-child(4) {
+        background: #95B7FF;
+    }
+    
+    .videolesson:nth-child(5) {
+        background: #FDA97A;
+    }
+    
+    .videolesson:nth-child(6) {
+        background: #B2FCE6;
+    }
+    
+    .videolesson:nth-child(7) {
+        background: #B2FCE6;
+    }
+    
+    .videolesson:nth-child(8) {
+        background: #FCCEBE;
+    }
+    
+    .videolesson:nth-child(9) {
+        background: #99ECA2;
+    }
+    
+    
+    .videolesson:nth-child(10) {
+        background: #a86832;
+    }
+    
+    .videolesson:nth-child(11) {
+        background: #F7C6B8;
+    }
+    
+    .videolesson:nth-child(12) {
+        background: #DAF5DB;
+    }
+    
+    .videolesson:nth-child(13) {
+        background: #54A29E;
+    }
+    
+    .videolesson:nth-child(14) {
+        background: #8253CA;
+    }
+    
+    .videolesson:nth-child(15) {
+        background: #BAAAEB;
+    }
+    
+    .videolesson:nth-child(16) {
+        background: #A34E4C;
+    }
+    
+    .videolesson:nth-child(17) {
+        background: #CB0CDF;
+    }
+    
+    .videolesson:nth-child(18) {
+        background: #939FED;
+    }
+    
+    .videolesson:nth-child(19) {
+        background: #338640;
+    }
+    
+    .videolesson:nth-child(20) {
+        background: #F50F40;
+    }
+    
+    .videolesson:nth-child(21) {
+        background: #64EE2F;
+    }
+    
+    .videolesson:nth-child(22) {
+        background: #E95B8F;
+    }
+    
+    .videolesson:nth-child(23) {
+        background: #DE6E4B;
+    }
+    
+    .videolesson:nth-child(24) {
+        background: #D6B8D0;
+    }
+    
+    .videolesson:nth-child(25) {
+        background: #FCCEBE;
+    }
+}
+
+
+
+/* Адаптив для мобильных устройств */
+
+@media screen and (max-width: 1299px){
+    .videolessons_title {
+        display: block;
+        width: 90vw;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .videolessons_desc {
+        width: 90vw;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .videolessons_section {
+        flex-direction: column;
+        justify-content: center;
+        width: 90vw;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 796px){
+    .videolessons_title {
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+
+    .videolessons_section {
+        .videolesson {
+            width: 90vw;
+
+            p {
+                font-size: 20px;
+                line-height: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .videolessons_title {
+        h2 {
+            font-size: 40px;
+        }
+    }
+}

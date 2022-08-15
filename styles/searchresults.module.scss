@@ -1,0 +1,164 @@
+/* Секция с заголовком и поиском */
+.search_desc {
+    width: 1267px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid #534747;
+    padding-bottom: 25px;
+}
+
+.search_desc h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+/* .faq-desc form {
+    
+} */
+
+.search_desc {
+    i {
+        margin-right: -40px;
+        font-size: 20px;
+        color: #B1B0EA;
+        z-index: 1;
+        text-align: center;
+        position: relative;
+        border: 0;
+    }
+
+    input {
+        background: #FFFFFF;
+        border: 2px solid #B1B0EA;
+        border-radius: 20px;
+        width: 730px;
+        height: 50px;
+        outline: none;
+        padding: 0 10px 0 50px;
+    }
+}
+
+.section_results {
+    width: 1267px;
+    margin: 30px auto;
+}
+
+.filter_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.select_filter {
+    display: flex;
+    align-items: center;
+}
+
+.format {
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #C4C4C4;
+    cursor: pointer;
+    color: #4845C9;
+
+    .option {
+        color: #000;
+    }
+}
+
+.results {
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптив */
+@media screen and (max-width: 1299px){
+    .search_desc {
+        flex-direction: column;
+        width: 95vw;
+        padding: 0;
+        padding-bottom: 20px;
+
+        i {
+            display: none;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+    } 
+
+    .section_results {
+        width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 1289px) {
+
+    .search_desc {
+        width: 90vw;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .search_desc h3 {
+        padding-bottom: 20px;
+    }
+
+    .search_desc input {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 849px){
+    .search_desc {
+        input {
+            padding: 0 10px 0 20px;
+        }
+    }
+
+    .filter_search {
+        flex-direction: column;
+        align-items: center;
+
+        .result {
+            text-align: center;
+        }
+
+        .select_filter {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .format {
+        width: 150px;
+    }
+}
