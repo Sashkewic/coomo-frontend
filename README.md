@@ -1,2 +1,3 @@
-# COOMO Frontend
+[RU] Это коммерческий проект, который был сделан на React (с использованием Next.js + СSS-modules + SCSS) с октября 2021 по январь 2022 года. Немного о самом проекте: ЦООМО - общеобразовательная платформа для подготовки к Общереспубликанскому Тестированию (аналог ЕГЭ в России). Платформа совмещает в себе прохождение бесплатных предметных онлайн-тестов, размещение новостей касательно тестирования, ознакомления с условиями теста и его документацией.
 
+[EN] This is a commercial project that was made on React (using Next.js + CSS-modules + SCSS) from October 2021 to January 2022. A little bit about the project itself: COOMO is a general education platform for preparing for Nationwide Testing (an analogue of the Unified State Exam in Russia). The platform combines the passage of free online subject tests, posting news about testing, familiarization with the test conditions and its documentation.
